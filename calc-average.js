@@ -10,4 +10,4 @@ function average(array) {
   return array.reduce((acc, current) => acc + current) / array.length;
 }
 
-console.log(average([1, 2, 5]));
+console.log(average([3, 2, 4, 5]));
